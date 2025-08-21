@@ -1,7 +1,6 @@
 # sentient_quickstart.py
 # Sentient Builder: Environment Check & Starter Folder
-# Author: Abraham Oyebode (@abrahamoyebode)
-
+# Author: Pillze 
 import os, sys, platform, shutil, subprocess, textwrap
 
 def has(cmd: str) -> bool:
@@ -44,7 +43,7 @@ if not os.path.exists(readme_path):
         f.write(
             "# Sentient Starter\n\n"
             "This folder is auto-generated to help new builders verify their environment\n"
-            "and have a clean workspace to begin. Contributed by Abraham Oyebode.\n\n"
+            "and have a clean workspace to begin. Contributed by Pillze.\n\n"
             "## What next?\n"
             "- Ensure you have Python 3 installed\n"
             "- (Optional) Install Git to clone repos\n"
